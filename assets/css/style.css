@@ -23,7 +23,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto); /* GOOGLE FREE FONTS */
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Meiryo, "Meiryo UI", "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif !important;
 }
 
 section {
@@ -43,7 +43,7 @@ section {
     NAVBAR STYLES
 ==================================*/
 .navbar-default {
-    background-color: #7ADB4D;
+    background-color: rgba(118,204,30,1);
     opacity:0.9;
     border-color: transparent;
     color: #fff000;
@@ -84,7 +84,7 @@ section {
         padding-top: 80px;
         font-weight: 900;
         font-size: 100px;
-        font-family: 'Browallia New';
+        font-family: Meiryo, "Meiryo UI", "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif !important;;
     }
 /*SMPLE CLASS TO ADJUST SECTION PADDING & HEIGHT*/
 
@@ -179,7 +179,7 @@ section {
 
 footer {
     padding: 20px;
-    font-size: 15px;
+    font-size: 40px;
     text-align: center;
     font-weight: 900;
     background-color: rgb(35, 133, 161);
