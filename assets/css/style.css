@@ -119,7 +119,10 @@ section {
         padding-bottom: 60px;
         padding-top: 60px;
     }
+.describe {
 
+  color:#000;
+}
 /*================================
     PORTFOLIO / WORK SECTION STYLES
 ==================================*/
