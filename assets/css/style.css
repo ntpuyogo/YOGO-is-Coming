@@ -161,6 +161,12 @@ section {
   font: 18px Meiryo, "Meiryo UI", "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif !important;;
 
 }
+.col-md-8 col-md-offset-2 text-center {
+  font-family: Meiryo, "Meiryo UI", "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif !important;;
+
+
+}
+
 /*================================
     PORTFOLIO / WORK SECTION STYLES
 ==================================*/
