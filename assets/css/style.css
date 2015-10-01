@@ -139,8 +139,7 @@ section {
   background: rgba(118,204,30,1);
   padding: 20px 30px 20px 30px;
   font: 20px Meiryo, "Meiryo UI", "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif !important;;
-  color: #fff;
-  text-shadow: 1px 1px 1px #444;
+  color: #000;
   border: none;
   border-radius: 5px;
   -webkit-border-radius: 5px;
