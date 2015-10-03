@@ -14,6 +14,7 @@
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
     <!-- CUSTOM STYLES -->
     <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/customer.css" rel="stylesheet" />
 	<!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -37,47 +38,49 @@
                 </a>
             </div>
             <div class="navbar-collapse collapse navbar-right scroll-me">
-                <ul class="nav navbar-nav ">
-                    <li><a href="#home">YOGO is Coming</a></li>
-                    <li><a href="#services">YOGO's Secret</a></li>
-                    <li><a href="#works">你想揪什麼?</a></li>
-
+                <ul class="nav navbar-nav">
+                    <li><a href="#box">YOGO BOX</a></li>
+                    <li><a href="#about">關於YOGO</a></li>
                 </ul>
             </div>
 
         </div>
     </div>
     <!-- NAVBAR CODE END -->
-    <div id="home">
-        <div class="overlay">
-            <!-- overylay class usage -->
-            <div class="container">
-                <div class="col-md-8 col-md-offset-2 text-center">
 
-                    <h1>YOGO is Coming</h1>
-                    <h2>最棒的校園揪團平台</h2>
-                    <h3>讓我們一起來探索校園揪團的無限驚喜</h3>
-<br><br>
-<input type="button" value="即將上線" style="width:120px;height:40px;border:2px  none;background-color:rgba(118,204,30,1);">
 
-                </div>
-
-            </div>
+    <section id="box">
+      <div class="col-md-8 col-md-offset-2 text-center">
+          <h2><b>你想揪什麼？</b></h2>
+          <h3>和YOGO一起分享你最期待的揪團，或是最近生活中你想揪的商品或服務吧</h3>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <form action="//formspree.io/yogontpu@gmail.com"
+                  method="POST">
+                <input type="text" name="name">
+                <input type="email" name="_replyto">
+                <input type="submit" value="Send">
+            </form> 
+          </div>
+          <div class="col-md-12">
+          </div>
         </div>
+      </div>
+    </section>
+    <!-- CONTACT SECTION END -->
 
-    </div>
-    <!--HOME SECTION END  -->
-    <section id="services">
+
+    <section id="about">
         <div class="container">
             <div class="row text-center pad-bottom">
                 <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-                    <h2 class="head-set"><b>YOGO是什麼？</b></h2>
+                    <h2 class="head-set"><b>About YOGO</b></h2>
                     <p style="font-size:20px;">
                       只要你有非買不可、覺得超酷、不能不分享的揪團好物，趕快來YOGO讓你自由發起團購案
-
-若你是揪團團主，YOGO以簡便且系統性的揪團管理工具，解決你過去湊團購的麻煩
-<br>
-
+                      若你是揪團團主，YOGO以簡便且系統性的揪團管理工具，解決你過去湊團購的麻煩
+                      <br>
                     </p>
                 </div>
             </div>
@@ -110,48 +113,9 @@
         </div>
     </section>
     <!--SERVICES SECTION END  -->
-    <section id="works">
-      <div class="col-md-8 col-md-offset-2 text-center">
-          <h2><b>你想揪什麼？</b></h2>
-          <h3>和YOGO一起分享你最期待的揪團，或是最近生活中你想揪的商品或服務吧</h3>
-      </div>
-      <br><br><br><br><br><br><br>
-      <div class="container">
-      <form action="http://formspree.io/yogontpu@gmail.com" method="POST" class="describe">
-      <label>
-        <span>你最近想揪什麼團呢?</sapn>
-          <p></p>
-          <input type="text" name="product_name">
-     </label><br><br>
-     <label>
-       <span>想揪團的商品或服務介紹</sapn>
-         <p class="describetext">建議貼上連結，能讓我們更了解你想揪的商品或服務喔！</p>
-         <input type="text" name="product_intro">
-    </label><br><br>
-    <label>
-      <span>你希望什麼時候開團呢？</sapn>
-        <p class="describetext">自由填上你最想開團的日期！</p>
-        <input type="text" name="when">
-   </label><br><br>
-      <label>
-        <span>你的Email：</span>
-        <p class="describetext">你將有機會率先見證YOGO的誕生，成為探索YOGO揪團的先鋒！</p>
-          <input type="email" name="_replyto">
-      </label><br><br>
-          <input type="submit" value="Send" class="button">
-      </form>
-    </div>
-      <!--PARALLAX
-    </section>
-    <!-- CONTACT SECTION END-->
 
 
-    <!--
-    <footer>
-        © 2015 YourDomain.com  | <a href="http://www.designbootstrap.com/" target="_blank">by DesignBootstrap</a>
-    </footer>
-  -->
-    <!-- FOOTER SECTION END-->
+
     <!-- REQUIRED SCRIPTS FILES -->
     <!-- CORE JQUERY FILE -->
     <script src="assets/js/jquery-1.11.1.js"></script>

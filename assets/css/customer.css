@@ -1,0 +1,33 @@
+﻿html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+* {
+	box-sizing: border-box;
+}
+
+/*-----------------------------------------------------------------------------------------【Nav】*/
+.navbar {
+    background-color: rgba(240,240,240,1);
+    opacity: 1;
+    padding-bottom: 0.5%;
+    border-bottom: 1px solid rgba(50,50,50,0.1);
+    box-shadow: 1px 1px 1px rgba(50,50,50,0.1);
+}
+.nav > li > a {
+    color: black !important;
+    line-height: 30px;
+}
+
+/*-----------------------------------------------------------------------------------------【Box】*/
+/*form*/
+#box form {
+	margin-top: 5%;
+	background-color: rgba(224,159,62,0.9);
+	border-radius: 3px;
+	min-height: 15em;
+	padding: 5%;
+	width: 100%;
+}
