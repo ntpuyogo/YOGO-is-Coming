@@ -13,6 +13,7 @@
     background-color: rgba(240,240,240,1);
     opacity: 1;
     padding-bottom: 0.5%;
+    padding-top: 0.5%;
     border-bottom: 1px solid rgba(50,50,50,0.1);
     box-shadow: 1px 1px 1px rgba(50,50,50,0.1);
 }
@@ -30,4 +31,40 @@
 	min-height: 15em;
 	padding: 5%;
 	width: 100%;
+}
+.new {
+	background-color: green;
+}
+
+/*sheet*/
+#box form {
+	background: rgba(50,50,50,0.1);
+	border-radius: 3px;
+	width: 100%;
+	min-height: 15em;
+	padding: 5%;
+	text-align: center;
+}
+#box form img {
+	margin: 0 auto;
+}
+#box form article {
+	margin-bottom: 10%;
+}
+#groupon_content, #groupon_user, #send {
+	margin: 3% auto;
+	display: block;
+	border: none;
+	background: rgba(240,240,240,1);
+	border: 1px solid rgba(118,204,30,1);
+	padding: 3% 5%;
+}
+#groupon_content {
+	height: 6em;
+}
+#send {
+	background: rgba(118,204,30,1);
+	border-radius: 3px;
+	color: white;
+	font-weight: 600;
 }
