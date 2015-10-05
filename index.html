@@ -32,6 +32,14 @@
     });
     </script>
 
+    <script>//prevent redirect
+    //<![CDATA[
+        window.onbeforeunload = function(){
+            return false;
+        };
+    //]]>
+    </script>
+
 </head>
 <body>
     <div class="navbar navbar-default navbar-fixed-top">
