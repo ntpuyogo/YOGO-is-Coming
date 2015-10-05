@@ -29,6 +29,7 @@
 }
 .box_wrapper {
 	padding: 5%;
+	padding-top : 1%; 
 	background-color: #e6c79c;
 }
 .box_hidden {
