@@ -55,3 +55,29 @@ function countdown(){
       +'<li><div><span>' + minutes +'</span>minute' + (minutes > 1 ? 's' : '') +'</div></li>'
       +'<li><div><span>' + seconds +'</span>second' + (seconds > 1 ? 's' : '') +'</div></li>';
 }
+
+
+
+
+nav_abouts
+
+    
+//scroll down
+$("document").ready(function() {      
+        
+    $('#nav_box').click(function(){         
+      $('html, body').animate({
+        scrollTop: $("#box").offset().top
+      }, 2000);     
+     });
+    
+         
+    $('#nav_about').click(function(){
+      $('html, body').animate({
+        scrollTop: $("#about").offset().top
+      }, 2000);        
+     });
+
+
+});
+
