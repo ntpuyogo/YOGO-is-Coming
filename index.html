@@ -24,7 +24,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-    <script> //css onlick event
+    <script> //css onlick event for email anim
     $(document).ready(function(){
         $("#send").click(function(){
             $("form").addClass("zoomin");
@@ -38,6 +38,22 @@
             return 'YOGO BOX 已經收到你的揪團IDEA，看看YOGO BOX想告訴你什麼?';
         };
     //]]>
+    </script>
+
+    <script>//show text
+    $(document).ready(function() {
+      $('#send').click(function() {
+        $('.box_hidden').show();
+      });
+    });
+    </script>
+
+    <script> //css onlick event for box_hidden anim
+    $(document).ready(function(){
+        $("#send").click(function(){
+            $(".box_hidden").addClass("fadein");
+        });
+    });
     </script>
 
 </head>
@@ -77,6 +93,10 @@
       <div class="box_wrapper">
         <div class="row">
           <div class="col-md-5 col-sm-5" id="box_sheet">
+            <div class="box_hidden">
+                <h4>YOGO BOX 精靈</h4>
+                <img src="" class="responsive_img">
+            </div>
             <form action="//formspree.io/yogontpu@gmail.com" method="POST">
                 <img src="http://i.imgur.com/7DJ7Gl7.png" class="img-responsive">
                 <article>
