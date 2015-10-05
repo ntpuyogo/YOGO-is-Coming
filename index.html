@@ -22,6 +22,13 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <script> //css onlick event
+    $(document).ready(function(){
+        $("#send").click(function(){
+            $("form").addClass("zoomin");
+        });
+    });
+    </script>
 
 </head>
 <body>
@@ -135,9 +142,6 @@
     <!-- CUSTOM SCRIPTS   -->
     <script src="assets/js/custom.js"></script>
 
-    <script>
-    $('#box_form').addClass('new');
-    </script>
 
 </body>
 

@@ -40,23 +40,30 @@
 #box form {
 	background: rgba(50,50,50,0.1);
 	border-radius: 3px;
-	width: 100%;
 	min-height: 15em;
-	padding: 5%;
 	text-align: center;
+	padding: 5%;
+	width: 100%;
 }
 #box form img {
 	margin: 0 auto;
 }
+.zoomin {
+	width: 0;
+	height: 0;
+	margin-bottom: 5em;
+	transition: 0.5s;
+}
+
 #box form article {
 	margin-bottom: 10%;
 }
 #groupon_content, #groupon_user, #send {
-	margin: 3% auto;
-	display: block;
 	border: none;
-	background: rgba(240,240,240,1);
+	background: rgba(255,255,255,1);
 	border: 1px solid rgba(118,204,30,1);
+	display: block;
+	margin: 3% auto;
 	padding: 3% 5%;
 }
 #groupon_content {
@@ -67,4 +74,7 @@
 	border-radius: 3px;
 	color: white;
 	font-weight: 600;
+}
+#send:hover {
+	box-shadow: 
 }
