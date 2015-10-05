@@ -3,12 +3,25 @@
 	padding: 0;
 	height: 100%;
 	width: 100%;
-	overflow-x: hidden; 
+	overflow-x: hidden;
 }
 * {
 	box-sizing: border-box;
 }
-
+#up, #down {
+	float: right;
+	cursor: pointer;
+	color: black;
+}
+#up, #down:hover {
+	opacity: 0.9;
+}
+#up {
+	padding-right: 5%;
+}
+#down {
+	margin-bottom: 3%;
+}
 /*-----------------------------------------------------------------------------------------【Nav】*/
 .navbar {
     background-color: rgba(250,250,250,1);
@@ -175,7 +188,6 @@
 .pro_img {
 	width: 200px;
 	height: auto;
-	box-shadow: 1px 1px 1px rgba(50,50,50,0.1);
 }
 /*countdown*/
 #countdown {
@@ -191,6 +203,7 @@
   background: #fff;
   margin: 0 5px;
   margin-top: 10%;
+  color: black;
 }
 #countdown li div {
   display: table-cell;
@@ -198,13 +211,20 @@
   width: 150px;
   height: 150px;
   text-align: center;
+  color: black;
 }
 #countdown li div span {
   display: block;
   font-size: 3em;
-  color: #323031;
+  color: black;
 }
 .counter_text {
 	margin-top: 5%;
 	text-align: center;
+}
+.describe_text {
+	font-size: 1.12em;
+}
+.describe_text_small {
+	font-size: 1.1em;
 }
