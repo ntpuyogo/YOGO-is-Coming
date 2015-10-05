@@ -43,9 +43,6 @@
 	display: none;
 	float: right;
 }
-.box_hidden ul {
-	text-align: left;
-}
 .yogo_logo {
 	width: 200px;
 	height: auto;
@@ -178,4 +175,35 @@
 	height: auto;
 	border: 1px solid rgba(50,50,50,0.2);
 	box-shadow: 1px 1px 1px rgba(50,50,50,0.1);
+}
+/*countdown*/
+#countdown {
+  padding: 0 5%;
+  overflow: hidden;
+  list-style: none;
+  text-align: center !important;
+  margin: 0 auto;
+}
+#countdown li {
+  display: inline-block;
+  float: left;
+  background: #fff;
+  margin: 0 5px;
+  margin-top: 10%;
+}
+#countdown li div {
+  display: table-cell;
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+#countdown li div span {
+  display: block;
+  font-size: 3em;
+  color: #323031;
+}
+.counter_text {
+	margin-top: 5%;
+	text-align: center;
 }

@@ -17,3 +17,41 @@ var word = getRandomWord();
 console.log(word);
 
 document.getElementById("word").textContent = word;
+
+
+
+
+// countdown
+var ctd = document.getElementById('countdown');
+
+countdown();
+function countdown(){   
+   var launch_date = new Date (Date.UTC(2016, 00, 14, 00, 00));
+   var days; var hours; var minutes; var seconds; var rest;
+    var now = new Date();
+    
+   seconds = rest = Math.floor(((launch_date.getTime() - now.getTime()) / 1000));
+
+   days = zero (Math.floor(seconds / 86400));
+   seconds -= days * 86400;
+            
+   hours = zero (Math.floor(seconds / 3600));
+   seconds -= hours * 3600;
+
+   minutes = zero (Math.floor(seconds / 60));
+   seconds -= minutes * 60;
+
+   seconds = zero (Math.floor(seconds));
+    
+   function zero(n){
+       return (n < 10 ? '0' : false) + n;  
+   }
+  
+   rest <= 0 ? days = hours = minutes = seconds = '00' : setTimeout(countdown, 1000);
+     
+   ctd.innerHTML =
+      '<li><div><span>' + days +'</span>day' + (days > 1 ? 's' : '') +'</div></li>'
+      +'<li><div><span>' + hours +'</span>hour' + (hours > 1 ? 's' : '') +'</div></li>'
+      +'<li><div><span>' + minutes +'</span>minute' + (minutes > 1 ? 's' : '') +'</div></li>'
+      +'<li><div><span>' + seconds +'</span>second' + (seconds > 1 ? 's' : '') +'</div></li>';
+}
