@@ -59,30 +59,6 @@ function countdown(){
 
 
 
-$("document").ready(function() {      
-    $('#nav_box').click(function(){         
-      $('html, body').animate({
-        scrollTop: $("#box").offset().top
-      }, 2000);     
-     });
-    
 
-    $('#nav_about').click(function(){
-      $('html, body').animate({
-        scrollTop: $("#about").offset().top
-      }, 2000);        
-     });
 
-    $('#up').click(function(){
-      $('html, body').animate({
-        scrollTop: $("#about").offset().top
-      }, 2000);        
-     });
-
-    $('#down').click(function(){
-      $('html, body').animate({
-        scrollTop: $("#about").offset().top
-      }, 2000);        
-     });
-});
 
