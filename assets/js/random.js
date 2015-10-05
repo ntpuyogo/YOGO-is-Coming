@@ -26,7 +26,7 @@ var ctd = document.getElementById('countdown');
 
 countdown();
 function countdown(){   
-   var launch_date = new Date (Date.UTC(2016, 00, 14, 00, 00));
+   var launch_date = new Date (Date.UTC(2015, 9, 08, 20, 00));
    var days; var hours; var minutes; var seconds; var rest;
     var now = new Date();
     
