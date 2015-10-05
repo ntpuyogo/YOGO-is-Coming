@@ -24,18 +24,19 @@
 }
 
 /*-----------------------------------------------------------------------------------------【Box】*/
-/*form*/
+#box {
+	padding-bottom: 0 !important;
+}
 .box_wrapper {
 	padding: 5%;
 	background-color: #e6c79c;
 }
-/*sheet*/
 .box_hidden {
 	background: rgba(240,240,240,1);
 	border-radius: 3px;
 	text-align: center;
 	width: 100%;
-	min-height: 15em;
+	min-height: 10em;
 	position: relative;
 	padding: 3%;
 	box-shadow: 1px 1px 1px rgba(50,50,50,0.1);
@@ -104,22 +105,22 @@
 @-webkit-keyframes boxFade {
   0%   { opacity: 0; width: 0%; height: 0%; left: 2000px;}
   30% { opacity: 0;}
-  100% { opacity: 1; width:100%; height: 100%; left: 0;}
+  100% { opacity: 1; width:100%; height: 80%; left: 0;}
 }
 @-moz-keyframes boxFade {
   0%   { opacity: 0; width: 0%; height: 0%; left: 2000px;}
   30% { opacity: 0;}
-  100% { opacity: 1; width:100%; height: 100%; left: 0;}
+  100% { opacity: 1; width:100%; height: 80%; left: 0;}
 }
 @-o-keyframes boxFade {
   0%   { opacity: 0; width: 0%; height: 0%; left: 2000px;}
   30% { opacity: 0;}
-  100% { opacity: 1; width:100%; height: 100%; left: 0;}
+  100% { opacity: 1; width:100%; height: 80%; left: 0;}
 }
 @keyframes boxFade {
   0%   { opacity: 0; width: 0%; height: 0%; left: 2000px;}
   30% { opacity: 0;}
-  100% { opacity: 1; width:100%; height: 100%; left: 0;}
+  100% { opacity: 1; width:100%; height: 80%; left: 0;}
 }
 
 #box form article {
@@ -161,4 +162,20 @@
 	line-height: 35em;
 	text-align: center;
 	position: relative;
+}
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------【About】*/
+#about {
+	padding-top: 5% !important;
+	background: #64B6AC;
+}
+.pro_img {
+	width: 200px;
+	height: auto;
+	border: 1px solid rgba(50,50,50,0.2);
+	box-shadow: 1px 1px 1px rgba(50,50,50,0.1);
 }
